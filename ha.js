@@ -119,14 +119,14 @@
 
 // Q=3
 
-// let c=9;
-// for (let i = 1; i <=c; i+=2) {
+// let c=5;
+// for (let i = 1; i <=c; i++) {
 //     let row="";
-//     for (let j = c; j >=i; j-=2) {
+//     for (let j = c-1; j >=i; j--) {
 //         row+=" ";
 
 //     }
-//     for (let k = 1; k <= i; k++) {
+//     for (let k = 1; k <=2*i-1; k++) {
 //         row+="*";
 
 //     }
@@ -159,32 +159,171 @@
 
 // Q=6
 
-// let c = 9;
-// for (let i = 1; i <= c; i += 2) {
+// let c = 5;
+// for (let i = 1; i <= c; i ++) {
 //     let row = "";
-//     for (let j = c; j >= i; j -= 2) {
+//     for (let j = c-1; j >= i; j --) {
 //         row += " ";
 //     }
-//     for (let k = 1; k <= i; k++) {
-//         row += "*";
-//     }
-//     console.log(row);
-// }
-// for (let i = c - 2; i >= 1; i -= 2) {
-//     let row = "";
-//     for (let j = c; j >= i; j -= 2) {
-//         row += " ";
-//     }
-//     for (let k = 1; k <= i; k++) {
+//     for (let k = 1; k <=2*i-1; k++) {
 //         row += "*";
 //     }
 //     console.log(row);
 // }
 
+// for (let i = c-1; i >=1; i --) {
+//     let row = "";
+//     for (let j = c-1; j >= i; j --) {
+//         row += " ";
+//     }
+
+//     for (let k = 1; k <=2*i-1; k++) {
+//         row += "*";
+//     }
+//     console.log(row);
+// }
 
 
 
 
+// let a=5;
+// for (let i = 1; i <=a; i++) {
+//     let st="";
+//     for (let j = a-1; j >=i; j--) {
+//         st+=" ";
+        
+//     }
+//     for (let k = 1; k <=2*i-1; k++) {
+//         st+="*"
+        
+//     }
+//     console.log(st);
+    
+// }
+
+// for (let i = a-1; i >=1; i--) {
+//     let st="";
+//     for (let j = a-1; j >=i; j--) {
+//         st+=" ";
+        
+//     }
+//     for (let k = 1; k <=2*i-1; k++) {
+//         st+="*"
+        
+//     }
+//     console.log(st);
+    
+// }
 
 
 
+// Q task=3
+
+
+// Q=1
+
+// let a=10;
+// for (let i = 1; i <=a; i++) {
+//         console.log(i);
+// }
+
+// let a=20;
+// for (let i = 1; i <=a; i++) {
+//     if(i%2!==0){
+//         console.log(i);     
+//     }
+// }
+
+
+// Q=2
+
+// let a=5;
+// for (let i = 1; i <=a; i++) { 
+//     console.log(i*i); 
+// }
+
+// let a=100;
+// for (let i = 1; i <=100; i++) {
+//     if(i%5==0){
+//         console.log(i);   
+//     }
+// }
+
+
+// Q=3
+
+// Q=a
+
+// let a = 0, b = 1;
+
+// console.log(a); 
+// console.log(b); 
+
+// for (let i = 3; i <= 10; i++) { 
+//   let nextTerm = a + b; 
+//   a = b; 
+//   b = nextTerm;
+//   console.log(nextTerm);  
+// }
+
+
+// Q=b
+
+// let a=5;
+// for (let i = 1; i <=a; i++) {
+//     let row="";
+//     for (let j = 1; j <=i; j++) {
+//         row+="*";
+        
+//     }
+//     console.log(row);
+    
+// }
+
+// Q=c
+
+// let a=7;
+// for (let i = 1; i <=10; i++) {
+//     console.log("7","X",i,"=",i*a);
+// }
+
+// Q=d
+
+// const p="anuj";
+// for (let i = 0; i <p.length; i++) {
+//     console.log(p[i]);  
+// }
+
+
+// Q=e
+
+// let a=50;
+// let sum=0;
+// for (let i = 1; i <=a; i++) {
+//     if(i%2==0){
+//         sum+=i;
+//     }  
+// }
+// console.log(sum);
+
+// Q=f
+
+// let a=3;
+// for (let i = 1; i <=a; i++) {
+//     let st="";
+
+//     for (let l = a-1; l >=i; l--) {
+//         st+=" "
+        
+//     }
+  
+//     for (let j = 1; j <=i; j++) {
+//         st+=j;
+        
+//     }
+   
+//     for (let k = i-1; k >=1; k--) {
+//         st+=k;   
+//     }
+//     console.log(st);
+// }
