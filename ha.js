@@ -327,3 +327,213 @@
 //     }
 //     console.log(st);
 // }
+
+
+
+// while loop question
+
+// Q=1
+
+// let i=1;
+// while (i<=10) {
+//     console.log(i);
+//     i++;
+// }
+
+// Q=2
+
+// let a=6
+// let sum=0;
+// let i=1;
+// while (i<=a) {
+//     if(i%2==0){
+//         sum+=i  
+//     }
+//    i++;
+// }
+// console.log(sum);
+
+// Q=3
+
+// let a=5;
+// let i=a;
+// while (i>=1) {
+//     console.log(i);
+//     i--;
+// }
+
+// Q=4
+// Prompt user for input
+// let num =12;
+// let originalNum = num; 
+// let reversedNum = 0;
+
+// while (num > 0) {
+//   let digit = num % 10; 
+//   reversedNum = reversedNum * 10 + digit; 
+//   num = Math.floor(num / 10); 
+// }
+// if (originalNum === reversedNum) {
+//   console.log(originalNum, "is a Palindrome");
+// } else {
+//   console.log(originalNum, "is not a Palindrome");
+// }
+
+
+
+// Q=5
+
+// let a=5;
+// let fecto=1;
+// let i=1;
+// while (i<=a) {
+//     fecto*=i
+//     i++;
+// }
+// console.log(fecto);
+
+
+
+// switch case question
+
+// Q=1
+
+// let n1=5;
+// let n2=3;
+// let op="+";
+
+// switch(op){
+//     case "+":
+//         console.log(n1+n2);
+//     break;
+//     case "-":
+//         console.log(n1-n2);
+//     break;
+//     case "*":
+//         console.log(n1*n2);
+//     break;
+//     case "/":
+//         if(n2!==0){
+//             console.log(n1/n2);
+//         }else{
+//             console.log("devide by zero is not currect");
+            
+//         }
+       
+//     break;
+//     default:
+//         console.log("no input oprater");
+//         break;
+
+// }
+
+// Q=2
+
+// let day=8;
+// switch(day){
+//     case 1:
+//     console.log("monday");
+//     break;
+//     case 2:
+//         console.log("tuestday");
+//     break;
+//     case 3:
+//         console.log("Wednesday");
+//     break;
+//     case 4:
+//         console.log("thursday");
+//     break;
+//     case 5:
+//         console.log("friday");
+//     break;
+//     case 6:
+//         console.log("Saturday");
+//     break;
+//     case 1:
+//         console.log("Sunday");
+//     break;
+//     default:
+//         console.log("Only 1-7 number, ONe week");
+//     break;
+
+// }
+
+// Q=3
+
+// let vowel="a";
+// switch(vowel){
+              
+//     case "a":
+//         console.log("a is Vowel");
+//     break;
+//     case "e":
+//         console.log("e is vowel");
+//     break;
+//     case "i":
+//         console.log("i is vowel");
+//     break;
+//     case "o":
+//         console.log("o is vowel");
+//     break;
+//     case "u":
+//         console.log("u is vowel");
+//     break;
+//     default:
+//         if(vowel>="a" && vowel<="z"){
+//             console.log("Consonant");
+            
+//         }else{
+//             console.log("only alphabet ");
+//         }
+     
+//     break;
+// }
+
+// Q=4
+
+// let che="";
+// switch(che){
+//     case 'A':
+//         console.log("Excellent");
+//         break;
+//       case 'B':
+//         console.log("Very Good");
+//         break;
+//       case 'C':
+//         console.log("Good");
+//         break;
+//       case 'D':
+//         console.log("Needs Improvement");
+//         break;
+//       case 'F':
+//         console.log("Failed");
+//         break;
+//       default:
+//         console.log("enter a grade entered");
+// }
+
+// Q=5
+
+    // console.log("Menu:");
+    // console.log("1. Add two numbers");
+    // console.log("2. Subtract two numbers");
+    // console.log("3. Multiply two numbers");
+    // console.log("4. Exit Programe");
+
+    // let n1=2;
+    // let n2=2;
+    // let choise=4;
+    // switch(choise){
+    //     case 1:
+    //         console.log(n1+n2);
+    //     break;
+    //     case 2:
+    //         console.log(n1-n2);
+    //     break;
+    //     case 3:
+    //         console.log(n1*n2);
+    //     break;
+    //     default:
+    //         console.log("Exiting the program...");
+    // }
+  
