@@ -71,6 +71,8 @@
 
 // Q=2
 
+// neturale
+
 // let a=6;
 // let temp=0;
 // for (let i = 1; i <= a; i++) {
@@ -106,7 +108,7 @@
 
 // Q=2
 
-// let b=5;
+let b=5;
 // for (let i = 1; i <=b; i++) {
 //     let tstr="";
 //     for (let j = b; j >=i; j--) {
